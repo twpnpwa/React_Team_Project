@@ -30,6 +30,7 @@ const Footer = () => {
     setBody('')
   }
 
+
   // 방문자와 내용을 입력하고 엔터를 눌러 방명록에 방문자명과 내용을 추가하는 함수
   const keyPressHandler = (event) => {
     if (event.key === 'Enter') {
