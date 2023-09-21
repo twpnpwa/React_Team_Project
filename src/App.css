@@ -36,3 +36,115 @@
     transform: rotate(360deg);
   }
 }
+
+/* 입력하기 */
+.add-form {
+  background-color: #eee;
+  border-radius: 12px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-label {
+font-size: 16px;
+font-weight: 700;
+}
+
+.add-input{ 
+  height: 40px;
+  width: 240px;
+  border: none;
+  border-radius: 12px;
+  padding: 0 12px;
+}
+.add-input2{ 
+  height: 40px;
+  width: 700px;
+  border: none;
+  border-radius: 12px;
+  padding: 0 12px;
+}
+
+.add-button {
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #61dafb;;
+  width: 140px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* 헤더 */
+.container {
+  border: 1px solid #ddd;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
+/* 레이아웃 */
+.layout{
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+}
+
+
+/* 리스트 바디 구간 */
+.list-container { 
+  padding: 0 24px;
+}
+
+.list-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+
+/* todo 리스트 구간 */
+.todo-container {
+  width: 270px;
+  /* height: 150px; */
+  border: 4px solid #61dafb;;
+  border-radius: 12px;
+  padding: 12px 24px 24px 24px;
+}
+
+.button-set{
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.button{
+  border:none;
+  width: 50%;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.todo-delete-button {
+  border: 2px solid red;
+  background-color: #fff;
+}
+
+.todo-complete-button {
+  border: 2px solid green;
+  background-color: #fff;
+}
