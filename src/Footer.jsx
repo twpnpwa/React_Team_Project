@@ -55,19 +55,26 @@ const Footer = () => {
 
       <h2 className="list-title">방명록</h2>
 
+
+      {/* 방문자명과 내용을 입력받지 않았을 땐 방명록 박스가 보이지 않게 구현했습니다 
+      입력받지 않은 상태에서의 방명록박스를 어떻게 디자인하면 좋을지 다같이 의논해봐요!!*/}
       <div className="list-wrapper">
 
         {
           guestbook.map(function (item) {
-            return (
-              <div key={item.id} className="todo-container">
-                <div>
-                  <h2 className="todo-title">방문자: {item.name}</h2>
-                  <div>내용:{item.body}</div>
-                </div>
+            if (item.name || item.body) {
+              return (
+                <div key={item.id} className="todo-container">
+                  <div>
+                    <h2 className="todo-title"> {item.name && <div>방문자: {item.name}</div>}</h2>
+                    {item.body && <div>내용:{item.body}</div>}
+                  </div>
 
-              </div>
-            )
+                </div>
+              )
+            } else {
+              return null
+            }
           })}
 
 
