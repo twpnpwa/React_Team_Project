@@ -5,7 +5,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/Users/yun/Desktop/리액트장인/4조 크레용구름.jpeg);
+  background-image: url('/Users/marine/Desktop/React_Team_Project/IMG_5689.jpg');
+  /* ⬆️ 이 속성 url은 IMG_5689.jpg 우클릭 하셔서 경로 복사하기 누르신 다음에 입력해주세용! */
+  background-size: 800px;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -28,22 +31,22 @@
 }
 
 h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 .intro {
-    width: 100%;
-    display: flex;
-    border: groove rgb(27, 160, 249);
-    border-radius: 0px 20px 20px;
-    height: 100%;
-    padding: 50px;
+  width: 100%;
+  display: flex;
+  border: groove rgb(27, 160, 249);
+  border-radius: 0px 20px 20px;
+  height: 100%;
+  padding: 50px;
 }
 
 .card {
@@ -112,6 +115,7 @@ p {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -136,18 +140,19 @@ p {
 }
 
 .form-label {
-font-size: 16px;
-font-weight: 700;
+  font-size: 16px;
+  font-weight: 700;
 }
 
-.add-input{ 
+.add-input {
   height: 40px;
   width: 240px;
   border: none;
   border-radius: 12px;
   padding: 0 12px;
 }
-.add-input2{ 
+
+.add-input2 {
   height: 40px;
   width: 700px;
   border: none;
@@ -159,7 +164,8 @@ font-weight: 700;
   border: none;
   height: 40px;
   border-radius: 10px;
-  background-color: #61dafb;;
+  background-color: #61dafb;
+  ;
   width: 140px;
   color: #fff;
   font-weight: 700;
@@ -177,7 +183,7 @@ font-weight: 700;
 
 
 /* 레이아웃 */
-.layout{
+.layout {
   max-width: 1200px;
   min-width: 800px;
   margin: 0 auto;
@@ -185,11 +191,11 @@ font-weight: 700;
 
 
 /* 리스트 바디 구간 */
-.list-container { 
+.list-container {
   padding: 0 24px;
 }
 
-.list-wrapper{
+.list-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
@@ -200,19 +206,20 @@ font-weight: 700;
 .todo-container {
   width: 270px;
   /* height: 150px; */
-  border: 4px solid #61dafb;;
+  border: 4px solid #61dafb;
+  ;
   border-radius: 12px;
   padding: 12px 24px 24px 24px;
 }
 
-.button-set{
+.button-set {
   display: flex;
   gap: 10px;
   margin-top: 24px;
 }
 
-.button{
-  border:none;
+.button {
+  border: none;
   width: 50%;
   height: 40px;
   border-radius: 8px;
