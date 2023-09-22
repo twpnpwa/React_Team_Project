@@ -18,6 +18,7 @@ const Footer = () => {
     setBody(event.target.value)
   }
 
+ //추가하기 버튼
   const clickAddButtonHandler = () => {
     const newGuestbook = {
       id: guestbook.length + 1,
@@ -37,6 +38,11 @@ const Footer = () => {
     }
   }
 
+ //삭제 버튼
+ const clickRemoveButtonHandler = (id) => {
+  const newGuestbook = guestbook.filter((item) => item.id !== id);
+  setGuestbook(newGuestbook)
+}
 
 
   return (
@@ -54,34 +60,39 @@ const Footer = () => {
 
       <h2 className="list-title">방명록</h2>
 
+      <div className="list-wrapper">
+
+        {
+          guestbook.map(function (item) {
+            if (item.name || item.body) {
+              return (
+                <div key={item.id} className="todo-container">
+                  <div>
+                    <h2 className="todo-title"> {item.name && <div>방문자: {item.name}</div>}</h2>
+                    {item.body && <div>내용:{item.body}</div>}
+                    <div className="button-set">
+                    <button onClick={() => clickRemoveButtonHandler(item.id)} className="todo-delete-button button">삭제</button>
+                  </div>
+                  </div>
+
+                </div>
+              )
+            } else {
+              return null
+            }
+          })}
+
+
+      </div>
     </div>
   )
 
-  {/* 방문자명과 내용을 입력받지 않았을 땐 방명록 박스가 보이지 않게 구현했습니다 
-      입력받지 않은 상태에서의 방명록박스를 어떻게 디자인하면 좋을지 다같이 의논해봐요!!*/}
-  <div className="list-wrapper">
-
-    {
-      guestbook.map(function (item) {
-        if (item.name || item.body) {
-          return (
-            <div key={item.id} className="todo-container">
-              <div>
-                <h2 className="todo-title"> {item.name && <div>방문자: {item.name}</div>}</h2>
-                {item.body && <div>내용:{item.body}</div>}
-              </div>
-
-            </div>
-          )
-        } else {
-          return null
-        }
-      })}
 
 
-  </div>
 
 }
+
+
   ;
 
 export default Footer;
