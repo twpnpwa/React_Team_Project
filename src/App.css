@@ -120,6 +120,8 @@ p {
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
+=======
 
 /* 입력하기 */
 .add-form {
@@ -235,3 +237,4 @@ p {
   border: 2px solid green;
   background-color: #fff;
 }
+>>>>>>> 18a7c23df96311092f55641bb91488fa3b3c4739
