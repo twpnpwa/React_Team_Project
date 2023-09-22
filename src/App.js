@@ -4,14 +4,18 @@ import Footer from "./Footer";
 import Header from "./Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
   return (
-    <div>
-      <Header />
-      <Content />
-      <Footer />
-      <h1>우리의 첫 프로젝트입니다! 모두 화이팅해서 꼭 완성 시켜봅시다!!!</h1>
+    <div className="outline">
+      <div className="maincss">
+        <Header />
+        <Content />
+        <Footer />
+        <h1></h1>
+      </div>
     </div>
+
   );
 }
 

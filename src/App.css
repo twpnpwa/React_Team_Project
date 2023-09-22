@@ -1,122 +1,146 @@
-.main-bg {
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url('C:\Users\HOME\Desktop\precourse\react\testproject\React_Team_Project\IMG_5689.jpg');
-  /* ⬆️ 이 속성 url은 IMG_5689.jpg 우클릭 하셔서 경로 복사하기 누르신 다음에 입력해주세용! */
-  background-size: 800px;
-  background-repeat: no-repeat;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=East+Sea+Dokdo&family=Jua&family=Noto+Sans+KR:wght@100;500&family=Noto+Serif+KR&display=swap');
 
-.header {
-  background-color: rgb(27, 160, 249);
-  height: 200px;
-}
+  * {
+    font-family: 'Jua', sans-serif;
+  }
 
-.member-tittle {
-  margin-top: 30px;
-  background-color: rgb(27, 160, 249);
-  width: 150px;
-  height: 50px;
-  border-radius: 10px 10px 0px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: solid rgb(27, 160, 249);
-  border-left: solid rgb(27, 160, 249);
-  border-right: solid rgb(27, 160, 249);
-}
+  .outline {
+    background-color: #282c34;
+    padding: 40px;
+  }
 
-h2 {
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
+  .maincss {
+    background-color: #282c34;
+    background-position: center;
+    background-size: cover;
+    margin: 20px auto;
+    padding: 40px;
+    border: 5px solid #61dafb;
+    border-radius: 50px;
 
-.intro {
-  width: 100%;
-  display: flex;
-  border: groove rgb(27, 160, 249);
-  border-radius: 0px 20px 20px;
-  height: 100%;
-  padding: 50px;
-}
 
-.card {
-  display: flex;
-  flex-direction: column;
-  padding: 70px;
-  border-radius: 20px;
-  cursor: pointer;
-  margin-right: 0.5px;
-  max-height: 400px;
-  background-color: rgb(27, 160, 249);
-}
+  }
 
-h3 {
-  text-align: right;
-  margin-top: 50px;
-  font-size: 50px;
-  font-weight: 500px;
-}
+  .main-bg {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('C:\Users\HOME\Desktop\precourse\react\testproject\React_Team_Project\IMG_5689.jpg');
+    /* ⬆️ 이 속성 url은 IMG_5689.jpg 우클릭 하셔서 경로 복사하기 누르신 다음에 입력해주세용! */
+    background-size: 800px;
+    background-repeat: no-repeat;
+  }
 
-p {
-  text-align: right;
-  margin-top: 50px;
-  font-size: 20px;
-  font-weight: 500px;
-}
+  .header {
+    background-color: rgb(27, 160, 249);
+    height: 200px;
+  }
 
-/* .modal {
+  .member-tittle {
+    margin-top: 30px;
+    background-color: rgb(27, 160, 249);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid rgb(27, 160, 249);
+    border-left: solid rgb(27, 160, 249);
+    border-right: solid rgb(27, 160, 249);
+  }
+
+  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+
+  .intro {
+    width: 100%;
+    display: flex;
+    border: groove rgb(27, 160, 249);
+    border-radius: 0px 20px 20px;
+    height: 100%;
+    padding: 50px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 0.5px;
+    max-height: 400px;
+    background-color: rgb(27, 160, 249);
+  }
+
+  h3 {
+    text-align: right;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 500px;
+  }
+
+  p {
+    text-align: right;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 500px;
+  }
+
+  /* .modal {
   margin-top: 30px;
   padding: 30px;
   background-color: aliceblue;
   text-align: center;
 } */
 
-.App {
-  text-align: center;
-}
+  .App {
+    text-align: center;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    height: 40vmin;
+    pointer-events: none;
   }
 
-  to {
-    transform: rotate(360deg);
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
   }
-}
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
