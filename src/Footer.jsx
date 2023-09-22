@@ -48,7 +48,7 @@ const Footer = () => {
           <input className="add-input" value={name} onChange={onNameChangeHandler} />
           <label className="form-label">내용 :</label>
           <input className="add-input2" value={body} onChange={onBodyChangeHandler}
-            onKeyDown={keyPressHandler} />
+            onKeyUp={keyPressHandler} />
         </div>
         <button onClick={clickAddButtonHandler} className="add-button">추가하기</button>
       </div>
