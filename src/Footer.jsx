@@ -10,7 +10,6 @@ const Footer = () => {
   const [name, setName] = useState('')
   const [body, setBody] = useState('')
 
-
   const onNameChangeHandler = (event) => {
     setName(event.target.value)
   }
@@ -29,7 +28,6 @@ const Footer = () => {
     setName('')
     setBody('')
   }
-
 
 
 return (
@@ -60,7 +58,6 @@ return (
           </div>
         )
       })}
-
 
     </div>
   </div>)
