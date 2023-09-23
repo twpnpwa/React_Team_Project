@@ -1,5 +1,6 @@
 .main-bg {
     height: 400px;
+    background-color: green;
     background-size: cover;
     background-position: center;
     display: flex;
