@@ -1,7 +1,8 @@
 import './App.css';
+import './Header.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
-import { Container, Row, Col} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 
 function App() {
 
@@ -10,8 +11,8 @@ function App() {
   return (
     <div className="App">
 
-       <div className='main-bg'></div>
-      
+      <div className='main-bg'></div>
+
       <div className='header'>
         <h4>npx create-react-app Team4</h4>
         <span>가보자고</span>
@@ -22,14 +23,10 @@ function App() {
       </div>
 
       <div className='intro'>
-        <Container>
-          <Row>
-            <Col><div className='card'><h3>조원이름</h3><p>mbti</p></div></Col>
-            <Col><div className='card'><h3>조원이름</h3><p>mbti</p></div></Col>
-            <Col><div className='card'><h3>조원이름</h3><p>mbti</p></div></Col>
-            <Col><div className='card'><h3>조원이름</h3><p>mbti</p></div></Col>
-          </Row>
-        </Container>
+        <div className='card'><div className='memberImage' /><div className='memberName'>권소윤</div><div className='personality'>EN?!</div><button className='devBlog'>BLOG</button></div>
+        <div className='card'><div className='memberImage' /><div className='memberName'>김주영</div><div className='personality'>ISFP</div><button className='devBlog'>BLOG</button></div>
+        <div className='card'><div className='memberImage' /><div className='memberName'>이수진</div><div className='personality'>ISTP</div><button className='devBlog'>BLOG</button></div>
+        <div className='card'><div className='memberImage' /><div className='memberName'>이하빈</div><div className='personality'>ISFJ</div><button className='devBlog'>BLOG</button></div>
       </div>
 
     </div>

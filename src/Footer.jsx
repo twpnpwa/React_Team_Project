@@ -58,14 +58,13 @@ const Footer = () => {
               if (item.name || item.body) {
                 return (
                   <div key={item.id} className="todo-container">
-                    <div>
-                      <h5> {item.name && <div className="guestname">방문자: {item.name}</div>}</h5>
-                      {item.body && <div className= "guestbookbody">내용:{item.body}</div>}
+                    <div className="guestname">
+                      <h5> {item.name && <div >방문자: {item.name}</div>}</h5>
                       <div className="button-set">
                         <button onClick={() => clickRemoveButtonHandler(item.id)} className="removebtn">삭제</button>
                       </div>
                     </div>
-
+                    {item.body && <div className="guestbookbody">내용:{item.body}</div>}
                   </div>
                 )
               } else {
@@ -76,13 +75,18 @@ const Footer = () => {
 
         <div className="add-form">
           <div className="input-group">
-            <label className="form-label">방문자명: </label>
-            <input className="add-input" value={name} onChange={onNameChangeHandler} />
-            <label className="form-label">내용 :</label>
-            <input className="add-input2" value={body} onChange={onBodyChangeHandler}
-              onKeyUp={keyPressHandler} />
+            <div>
+              <label className="form-label">방문자 성함 :    </label>
+              <input className="add-input" value={name} onChange={onNameChangeHandler} />
+            </div>
+            <div>
+              <label className="form-label">방문 메시지   :   </label>
+              <input className="add-input2" value={body} onChange={onBodyChangeHandler}
+                onKeyUp={keyPressHandler} />
+            </div>
+
           </div>
-          <button onClick={clickAddButtonHandler} className="add-button">추가하기</button>
+          <button onClick={clickAddButtonHandler} className="add-button">보내기</button>
         </div>
 
 
