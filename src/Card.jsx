@@ -11,12 +11,7 @@ function App() {
   return (
     <div className="App">
 
-      <div className='main-bg'></div>
-
-      <div className='header'>
-        <h4>npx create-react-app Team4</h4>
-        <span>가보자고</span>
-      </div>
+  
 
       <div className='member-tittle'>
         <h2>Members</h2>

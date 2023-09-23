@@ -1,20 +1,3 @@
-.main-bg {
-    height: 400px;
-    background-color: green;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('./IMG_5689.jpg');
-    background-size: 800px;
-    background-repeat: no-repeat;
-}
-
-.header {
-    background-color: #61dafb;
-    height: 200px;
-}
 
 .member-tittle {
     margin-top: 30px;

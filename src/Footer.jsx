@@ -5,7 +5,7 @@ import "./Footer.css"
 const Footer = () => {
 
   const [guestbook, setGuestbook] = useState([
-    { id: 0, name: (''), body: ('') }
+    { id: 0, name: ('4조'), body: ('방명록을 남겨주세요^^') }
   ])
 
   const [name, setName] = useState('')
@@ -64,7 +64,7 @@ const Footer = () => {
                         <button onClick={() => clickRemoveButtonHandler(item.id)} className="removebtn">삭제</button>
                       </div>
                     </div>
-                    {item.body && <div className="guestbookbody">내용:{item.body}</div>}
+                    {item.body && <div className="guestbookbody">메시지:   {item.body}</div>}
                   </div>
                 )
               } else {
