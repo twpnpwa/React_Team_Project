@@ -10,7 +10,7 @@ function App() {
     <div className="outline">
       <div className="maincss">
         <Header />
-        <Content />
+        <Card />
         <Footer />
         <h1></h1>
       </div>
