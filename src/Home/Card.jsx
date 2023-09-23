@@ -9,9 +9,8 @@ const goToBlog = (userName) => {
   } else if (userName === "HB") {
     window.location.href = "https://velog.io/@liabin124";
   } else {
-
   }
-}
+};
 
 function Card() {
   //   return (
@@ -22,18 +21,10 @@ function Card() {
   // }
 
   return (
-    <div className="App">
-      <div className="main-bg"></div>
-
-      <div className="header">
-        <h4>npx create-react-app Team4</h4>
-        <span>가보자고</span>
-      </div>
-
+    <div>
       <div className="member-tittle">
         <h2>Members</h2>
       </div>
-
       <div className="intro">
         <div className="card">
           <div className="memberImage" id="SY" />
@@ -55,13 +46,17 @@ function Card() {
           <div className="memberImage" id="SJ" />
           <div className="memberName">이수진</div>
           <div className="personality">ISTP</div>
-          <button className="devBlog" onClick={() => goToBlog("SJ")}>BLOG</button>
+          <button className="devBlog" onClick={() => goToBlog("SJ")}>
+            BLOG
+          </button>
         </div>
         <div className="card">
           <div className="memberImage" id="HB" />
           <div className="memberName">이하빈</div>
           <div className="personality">ISFJ</div>
-          <button className="devBlog" onClick={() => goToBlog("HB")}>BLOG</button>
+          <button className="devBlog" onClick={() => goToBlog("HB")}>
+            BLOG
+          </button>
         </div>
       </div>
     </div>
