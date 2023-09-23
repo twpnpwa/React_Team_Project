@@ -1,35 +1,62 @@
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=East+Sea+Dokdo&family=Jua&family=Noto+Sans+KR:wght@100;500&family=Noto+Serif+KR&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
+  * {
+    font-family: 'Jua', sans-serif;
+  }
+
+  .outline {
+    background-color: #282c34;
+    padding: 60px;
+  }
+
+  .maincss {
+    background-color: #282c34;
+    background-position: center;
+    background-size: cover;
+    margin: 20px auto;
+    padding: 40px;
+    border: 5px solid #61dafb;
+    border-radius: 50px;
+  }
+
+  .App {
+    text-align: center;
+  }
+
+
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    height: 40vmin;
+    pointer-events: none;
   }
 
-  to {
-    transform: rotate(360deg);
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
   }
-}
+
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }

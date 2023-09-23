@@ -6,13 +6,12 @@
     justify-content: center;
     align-items: center;
     background-image: url('./IMG_5689.jpg');
-    /* ⬆️ 이 속성 url은 IMG_5689.jpg 우클릭 하셔서 경로 복사하기 누르신 다음에 입력해주세용! */
     background-size: 800px;
     background-repeat: no-repeat;
 }
 
 .header {
-    background-color: rgb(27, 160, 249);
+    background-color: #61dafb;
     height: 200px;
 }
 
