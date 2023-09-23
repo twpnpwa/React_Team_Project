@@ -119,6 +119,8 @@ h2 {
   width: 140px;
   color: #eee;
   font-weight: 700;
+  cursor: pointer;
+
 }
 
 h3 {

@@ -2,14 +2,16 @@ import "./App.css";
 import "./Card.css";
 
 const goToBlog = (userName) => {
-  if (userName === "SY") {
+  if (userName === "SJ") {
     window.location.href = "https://coffeecoding.tistory.com/";
-  } else if (userName === "SJ") {
-    window.location.href = "https://www.naver.com/";
   } else if (userName === "JY") {
+    window.location.href = "https://velog.io/@zoo02";
   } else if (userName === "HB") {
+    window.location.href = "https://velog.io/@liabin124";
+  } else {
+
   }
-};
+}
 
 function Card() {
   //   return (
@@ -53,13 +55,13 @@ function Card() {
           <div className="memberImage" id="SJ" />
           <div className="memberName">이수진</div>
           <div className="personality">ISTP</div>
-          <button className="devBlog">BLOG</button>
+          <button className="devBlog" onClick={() => goToBlog("SJ")}>BLOG</button>
         </div>
         <div className="card">
           <div className="memberImage" id="HB" />
           <div className="memberName">이하빈</div>
           <div className="personality">ISFJ</div>
-          <button className="devBlog">BLOG</button>
+          <button className="devBlog" onClick={() => goToBlog("HB")}>BLOG</button>
         </div>
       </div>
     </div>
