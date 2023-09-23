@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/Users/marine/Desktop/React_Team_Project/IMG_5689.jpg');
+    background-image: url('./IMG_5689.jpg');
     /* ⬆️ 이 속성 url은 IMG_5689.jpg 우클릭 하셔서 경로 복사하기 누르신 다음에 입력해주세용! */
     background-size: 800px;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@ h2 {
 .intro {
     width: 100%;
     display: flex;
-    border: groove rgb(27, 160, 249);
+    background-color: rgb(27, 160, 249);
     border-radius: 0px 20px 20px;
     height: 400px;
     padding: 50px;
@@ -51,11 +51,14 @@ h2 {
 
 .card {
     border: 1px solid rgb(27, 160, 249);
+    background-image: url(https://miro.medium.com/v2/resize:fit:1200/1*y6C4nSvy2Woe0m7bWEn4BA.png);
+    background-color: darkgray;
     align-items: center;
     display: flex;
     flex-direction: column;
     padding: 30px;
     margin: 10px;
+    width: 100%;
     border-radius: 20px;
     cursor: pointer;
     /* margin-right: 0.5px; */
@@ -66,7 +69,7 @@ h2 {
 .memberImage {
     border: 1px solid rgb(27, 160, 249);
     border-radius: 20px;
-    width: 100px;
+    width: 100%;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -79,7 +82,6 @@ h2 {
     height: 40px;
     border-radius: 10px;
     background-color: #61dafb;
-    ;
     width: 140px;
     color: #fff;
     font-weight: 700;
