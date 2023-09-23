@@ -1,72 +1,70 @@
 .main-bg {
-    height: 400px;
-    background-color: #282c34;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url('./IMG_5689.jpg');
-    background-size: 400px;
-    background-repeat: no-repeat;
+  height: 400px;
+  background-color: #282c34;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./IMG_5689.jpg");
+  background-size: 400px;
+  background-repeat: no-repeat;
 }
 
 .header {
-    margin-top: 60px;
-    /* background-color: #61dafb; */
-    border-radius: 10px;
-    border: solid #61dafb;
-    height: 550px;
+  margin-top: 60px;
+  /* background-color: #61dafb; */
+  border-radius: 10px;
+  border: solid #61dafb;
+  height: 550px;
 }
 
 .headerImage {
-    height: 350px;
-    width: 800px;
-    margin: 0 auto 0 auto;
-    background-image: url('./team.jpg');
-    background-color: green;
-    border-radius: 100px;
-    background-size: 800px;
-    background-repeat: no-repeat;
-    background-position: center;
-
+  height: 350px;
+  width: 800px;
+  margin: 0 auto 0 auto;
+  background-image: url("./team.jpg");
+  background-color: green;
+  border-radius: 100px;
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .yarntitle {
-    color: #61dafb
+  color: #61dafb;
 }
 
 .yarnbody {
-    color: #61dafb
+  color: #61dafb;
 }
 
 @keyframes rtanee {
-    0% {
-        bottom: 0px;
-    }
+  0% {
+    bottom: 0px;
+  }
 
-    100% {
-        bottom: 100px;
-    }
+  100% {
+    bottom: 100px;
+  }
 }
 
 .absolute-rtan-area {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
 
-    animation-name: rtanee;
-    animation-duration: 2s;
-    animation-duration: linear;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
-
+  animation-name: rtanee;
+  animation-duration: 2s;
+  animation-duration: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
 }
 
 .absolute-rtan-area img {
-    width: 200px;
-    height: 180px;
-    cursor: pointer;
-    border-radius: 600px;
+  width: 200px;
+  height: 180px;
+  cursor: pointer;
+  border-radius: 600px;
 }
