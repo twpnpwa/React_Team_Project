@@ -1,7 +1,7 @@
 import './App.css';
-import Content from "./Content";
-import Footer from "./Footer";
 import Header from "./Header";
+import Footer from "./Footer";
+import Card from "./Card";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 

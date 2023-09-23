@@ -1,5 +1,5 @@
 import './App.css';
-import './Header.css'
+import './Card.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'
