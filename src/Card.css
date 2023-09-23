@@ -17,16 +17,16 @@
 
 .member-tittle {
     margin-top: 30px;
-    background-color: rgb(27, 160, 249);
+    background-color: #61dafb;
     width: 150px;
     height: 50px;
     border-radius: 10px 10px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: solid rgb(27, 160, 249);
-    border-left: solid rgb(27, 160, 249);
-    border-right: solid rgb(27, 160, 249);
+    border-top: solid #61dafb;
+    border-left: solid #61dafb;
+    border-right: solid #61dafb;
 }
 
 h2 {
@@ -42,14 +42,14 @@ h2 {
 .intro {
     width: 100%;
     display: flex;
-    background-color: rgb(27, 160, 249);
+    background-color: #61dafb;
     border-radius: 0px 20px 20px;
     height: 400px;
     padding: 50px;
 }
 
 .card {
-    border: 1px solid rgb(27, 160, 249);
+    border: 1px solid #61dafb;
     background-image: url(https://miro.medium.com/v2/resize:fit:1200/1*y6C4nSvy2Woe0m7bWEn4BA.png);
     background-color: darkgray;
     align-items: center;
@@ -66,25 +66,38 @@ h2 {
 }
 
 .memberImage {
-    border: 1px solid rgb(27, 160, 249);
+    border: 1px solid #61dafb;
+    background-color: #eee;
     border-radius: 20px;
     width: 100%;
     height: 100px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* 버튼 태그에 대한 css/ 근데 .card의 cursor 속성을 이용하여 링크를 걸지 생각중. */
-/* .devBlog {
+.memberName {
+    border: 1px solid none;
+    margin: 5px;
+    color: #61dafb;
+}
+
+.personality {
+    border: 1px solid none;
+    color: #61dafb;
+}
+
+.devBlog {
+    margin: 10px;
     border: none;
     height: 40px;
     border-radius: 10px;
     background-color: #61dafb;
     width: 140px;
-    color: #fff;
+    color: #eee;
     font-weight: 700;
-} */
+}
 
 h3 {
     text-align: right;
