@@ -23,10 +23,30 @@ function App() {
       </div>
 
       <div className='intro'>
-        <div className='card'><div className='memberImage' /><div className='memberName'>권소윤</div><div className='personality'>EN?!</div><button className='devBlog'>BLOG</button></div>
-        <div className='card'><div className='memberImage' /><div className='memberName'>김주영</div><div className='personality'>ISFP</div><button className='devBlog'>BLOG</button></div>
-        <div className='card'><div className='memberImage' /><div className='memberName'>이수진</div><div className='personality'>ISTP</div><button className='devBlog'>BLOG</button></div>
-        <div className='card'><div className='memberImage' /><div className='memberName'>이하빈</div><div className='personality'>ISFJ</div><button className='devBlog'>BLOG</button></div>
+        <div className='card'>
+          <div className='memberImage' />
+          <div className='memberName'>권소윤</div>
+          <div className='personality'>EN?!</div>
+          <button className='devBlog'>BLOG</button>
+        </div>
+        <div className='card'>
+          <div className='memberImage' />
+          <div className='memberName'>김주영</div>
+          <div className='personality'>ISFP</div>
+          <button className='devBlog'>BLOG</button>
+        </div>
+        <div className='card'>
+          <div className='memberImage' />
+          <div className='memberName'>이수진</div>
+          <div className='personality'>ISTP</div>
+          <button className='devBlog'>BLOG</button>
+        </div>
+        <div className='card'>
+          <div className='memberImage' />
+          <div className='memberName'>이하빈</div>
+          <div className='personality'>ISFJ</div>
+          <button className='devBlog'>BLOG</button>
+        </div>
       </div>
 
     </div>
