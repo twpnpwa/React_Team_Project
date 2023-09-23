@@ -1,0 +1,143 @@
+.main-bg {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./IMG_5689.jpg");
+  background-size: 800px;
+  background-repeat: no-repeat;
+}
+
+.header {
+  background-color: #61dafb;
+  height: 200px;
+}
+
+.member-tittle {
+  margin-top: 30px;
+  background-color: #61dafb;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid #61dafb;
+  border-left: solid #61dafb;
+  border-right: solid #61dafb;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.intro {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: groove #61dafb;
+  border-radius: 0px 20px 20px;
+  margin-bottom: 50px;
+  padding: 20px;
+  height: 600px;
+  background-color: #eee;
+}
+
+.card {
+  border: 1px solid #61dafb;
+  background-color: #eee;
+  align-items: center;
+  /* display: flex;
+    flex-direction: column; */
+  padding: 30px;
+  margin: 10px;
+  width: 100%;
+  border-radius: 20px;
+  /* margin-right: 0.5px; */
+  /* max-height: 00px; */
+  /* background-color: rgb(27, 160, 249); */
+}
+
+.memberImage {
+  border: 1px solid #61dafb;
+  background-color: #eee;
+  border-radius: 20px;
+  margin: 10px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  width: 200px;
+  height: 60%;
+  background-size: cover;
+  /* overflow: hidden;
+    height: auto; */
+}
+
+#SY {
+  background-image: url(../MemberImage/sy.png);
+}
+
+#JY {
+  background-image: url(../MemberImage/jy.jpg);
+}
+
+#SJ {
+  background-image: url(../MemberImage/sj.jpg);
+}
+
+#HB {
+  background-image: url(../MemberImage/hb.jpg);
+}
+
+.memberName {
+  border: 1px solid none;
+  margin-top: 30%;
+  color: black;
+  font-size: 30px;
+}
+
+.personality {
+  border: 1px solid none;
+  color: black;
+  font-size: 15px;
+}
+
+.devBlog {
+  margin: 10px;
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #61dafb;
+  width: 140px;
+  color: #eee;
+  font-weight: 700;
+}
+
+h3 {
+  text-align: right;
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: 500px;
+}
+
+p {
+  text-align: right;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 500px;
+}
+
+/* .modal {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: aliceblue;
+    text-align: center;
+  } */

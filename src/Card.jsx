@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
 
-  
 
       <div className='member-tittle'>
         <h2>Members</h2>
