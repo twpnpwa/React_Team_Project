@@ -1,7 +1,7 @@
 import './App.css';
-import Content from "./Content";
-import Footer from "./Footer";
 import Header from "./Header";
+import Footer from "./Footer";
+import Card from "./Card";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -10,7 +10,7 @@ function App() {
     <div className="outline">
       <div className="maincss">
         <Header />
-        <Content />
+        <Card />
         <Footer />
         <h1></h1>
       </div>
